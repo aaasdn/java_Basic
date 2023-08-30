@@ -23,6 +23,7 @@ public class MethodQuiz02 {
     //2. 배열 내부 데이터 단순 출력 함수
     static void printFood() {
         System.out.println(Arrays.toString(foods));
+        System.out.println("========================");
     }
     
     
