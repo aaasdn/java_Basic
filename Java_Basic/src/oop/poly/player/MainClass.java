@@ -32,9 +32,15 @@ public class MainClass {
         */
 		
 		Player[] target = {w1, w2, m2, h1, h2};
-		
+		Player[] att = {w1, w2, m1, m2, h1, h2};
 		
 //		m1.blizzard(w1, w2, m2, h1, h2);
 		m1.blizzard(target);
+		
+		System.out.println("---------------------");
+		
+		w1.rush(m1);
+		w1.rush(w2);
+		w1.rush(h1);
 	}
 }

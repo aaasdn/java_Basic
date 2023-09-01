@@ -10,7 +10,7 @@ public class Mage extends Player {
 	}
 	
 	public void blizzard(Player[] target) {
-		System.out.printf("%s님이 눈보라 시전!!\n", this.name);
+		System.out.printf("%s님이 용의 일격 시전!!\n", this.name);
 		System.out.println("--------------------------------");
 		for(Player p : target) {
 			int damage = (int)((Math.random()*6) + 10);
