@@ -26,7 +26,7 @@ public class Person implements Cloneable {
 	}
 
 	// equals를 오버라이딩 할 때는 hashCode도 함께 오버라이딩을 진행해 주시는 것이 좋습니다.
-	// equals를 재 정의한다는 것은 내가 원하는 방식의 동등 비교를 하겠다는 것이기 때문에
+	// equals를 재정의한다는 것은 내가 원하는 방식의 동등 비교를 하겠다는 것이기 때문에
 	// hashcode의 값도 그에 맞게 같이 재 정의가 되어야 합니다. (hash 주소룰 equals에 맞게 정의)
 	@Override
 	public int hashCode() {
@@ -43,7 +43,6 @@ public class Person implements Cloneable {
 	// Cloneable 인터페이스를 구현해서 사용해야 합니다.
 	@Override
 	protected Object clone() throws CloneNotSupportedException {
-		// TODO Auto-generated method stub
 		return super.clone();
 	}
 	

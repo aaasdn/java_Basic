@@ -9,7 +9,7 @@ public class SystemTime {
         1970년 1월 1일 자정을 기준으로 현재까지 소요된 시간을
         밀리초 (1/1000)로 변환한 long타입의 정수를 반환합니다.
         */
-		
+	
 		long start = System.currentTimeMillis();
 		
 		int total = 0;

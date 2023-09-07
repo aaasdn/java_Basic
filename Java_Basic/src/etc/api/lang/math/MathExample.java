@@ -7,7 +7,7 @@ public class MathExample {
 		// 올림
 		int i = (int) Math.ceil(1.1);
 		System.out.println(i);
-		
+	
 		// 내림
 		double d = Math.floor(1.5);
 		System.out.println(d);
@@ -19,7 +19,7 @@ public class MathExample {
 		// 제곱
 		double d3 = Math.pow(3.0, 4.0);
 		System.out.println(d3);
-		
+
 		// 최대값
 		int max = Math.max(2, 10);
 		System.out.println(max);

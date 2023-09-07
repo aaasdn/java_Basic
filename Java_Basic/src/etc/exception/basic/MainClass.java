@@ -15,7 +15,7 @@ public class MainClass {
         4. 반복문을 탈출하면 프로그램 정상 종료 문장을 띄워 주세요.
 		*/
 		Scanner scanner = new Scanner(System.in);
-		
+	
 		
 //        int sum = 0;
 //        

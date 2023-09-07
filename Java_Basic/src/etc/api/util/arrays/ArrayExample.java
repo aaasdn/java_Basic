@@ -11,7 +11,7 @@ public class ArrayExample {
       char[] arr = {'J', 'A', 'V', 'A'};
       char[] arr2 = Arrays.copyOf(arr, arr.length);
       char[] arr3 = Arrays.copyOfRange(arr, 1, 3);
-      
+     
       
       System.out.println(Arrays.toString(arr));
       System.out.println(Arrays.toString(arr2));
