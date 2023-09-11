@@ -1,3 +1,4 @@
+
 package basic.array;
 
 import java.util.Arrays;
@@ -43,7 +44,9 @@ public class ArrayDeleteQuiz_while {
                 }
             }
             
-            if(!flag) { //flag == false?
+            if(!flag) { //flag == false? // 위의 코드에서 친구를 삭제한 후에 
+            	// 배열의 칸이 하나 비게 되는데 temp라는 변수를 이용해서 한칸 남은 공백의 배열을
+            	// 없애준다 (배열을 업데이트 시키는 역할)
                 System.out.println(name + "(은)는 없는 이름입니다.");
             } else {
                 String[] temp = new String[kakao.length-1];

@@ -1,18 +1,16 @@
 package basic.method;
 
-public class MethodQuiz01 {
+public class MethodQuiz01zz {
    
    static int calcDivisor(int num) {
-      int count = 0; // num의 약수인 정수를 세어 줄 변수.
-      for(int i=1; i<=num; i++) {
-         if(num % i == 0) {
-            System.out.print(i + " ");
-            count++;
-         }
-         
-      }
-      System.out.println();
-      return count;
+	   int count = 0;
+	   for(int i=1; i<=num; i++) {
+		   if(num % i == 0) {
+			   System.out.println(i + " ");
+			   count++;
+		   }
+	   }
+	   return count;
    }
 
    public static void main(String[] args) {
@@ -27,7 +25,7 @@ public class MethodQuiz01 {
          호출 두번 하시는 거에요.
         */
       
-      System.out.println("72의 약수의 개수: " + calcDivisor(5));
+      System.out.println("72의 약수의 개수: " + calcDivisor(7));
       System.out.println("10의 약수의 개수: " + calcDivisor(10));
 
    }

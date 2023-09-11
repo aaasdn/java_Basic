@@ -20,7 +20,7 @@ public class LoopNesting2 {
 		System.out.println("정수: ");
 		int num = sc.nextInt();
 
-		int count = 0; // 소수의 개수를 기억해 줄 변수.
+		int count = 0; // 1부터 입력한 값까지의 숫자들 중에서 소수인 숫자를 기억해 줄 변수.
 
 		for(int i=1; i<=num; i++) {
 			int cnt = 0; // 소수의 판별을 위해서 약수의 개수를 세 줄 변수.

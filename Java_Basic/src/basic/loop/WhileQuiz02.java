@@ -24,17 +24,10 @@ public class WhileQuiz02 {
         int num1 = sc.nextInt();
         System.out.print("정수2: ");
         int num2 = sc.nextInt();
-        /*
-        if(num1 > num2) {
-            int temp = num1;
-            num1 = num2;
-            num2 = temp;
-        }
+       
         
-        int n = num1;
-        */
-        
-        int start = (num1 > num2 ? num2 : num1);
+        int start = (num1 > num2 ? num2 : num1); // 정수를 num1과 num2에 넣었을 때 조건식에 따라 num1이 큰경우
+        										//num2의 값이 start 변수에 들어가고, num1이 작은경우 num1이 start 변수에 들어간다.
         int end = (num1 > num2 ? num1 : num2);
         
         int total = 0;

@@ -29,6 +29,7 @@ public class Array2DQuiz {
 			for(int s : stu) {
 				total += s;
 			}
+			System.out.println(total);
 			double avg = (double)total / subName.length;
 			totalAvg += avg;
 			System.out.printf("%s평균: %.1f점\n", stuName[idx], avg);

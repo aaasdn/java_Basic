@@ -55,7 +55,7 @@ public class ArrayInsertQuiz {
         }
         
         System.out.println("----------------------------------------------");
-        System.out.print("내가 먹고 싶은 음식들: ");
+//        System.out.print("내가 먹고 싶은 음식들: ");
         for(String f : foods) {
             if(f == null) break;
             System.out.print(f + " ");

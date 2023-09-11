@@ -1,6 +1,8 @@
 package basic.method;
 
 import java.awt.GraphicsDevice;
+import java.sql.Array;
+import java.util.Arrays;
 
 /*
 # 반환값, 반환 유형 (return value, return type)
@@ -96,8 +98,9 @@ public class MethodExample3 {
 
 		int[] numbers = {57, 89, 78, 91, 93, 47};
 		double[] result = calcArrayTotal(numbers);
-		System.out.printf("합계: %d, 평균: %.2f\n"
-				, (int)result[0], result[1]);
+		System.out.println(Arrays.toString(result));
+//		System.out.printf("합계: %d, 평균: %.2f\n"
+//				, (int)result[0], result[1]);
 
 		System.out.println("===================================");
 
