@@ -1,9 +1,9 @@
 package oop.modi.member.pac1;
 
 public class A {
-
+	
 	public int x;
-	int y; // default
+	int y; //default
 	private int z;
 	
 	public A() {
@@ -21,5 +21,11 @@ public class A {
 	public void method1() {}
 	void method2() {}
 	private void method3() {}
-	
+
 }
+
+
+
+
+
+

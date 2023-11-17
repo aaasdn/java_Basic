@@ -7,30 +7,12 @@ package oop.final_.method;
 	통해서만 사용할 수 있습니다.
 	
 	- 대표적인 final 클래스는 String 입니다.
- */
+*/
 
 public class Parent {
-
+	
 	void method1() {}
 	void method2() {}
 	final void method3() {}
 
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

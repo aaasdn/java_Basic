@@ -1,10 +1,10 @@
 package etc.api.collection.list;
 
 public class User {
-
+	
 	private String name;
 	private int age;
-
+	
 	public User(String name, int age) {
 		super();
 		this.name = name;
@@ -29,10 +29,13 @@ public class User {
 
 	@Override
 	public String toString() {
-		return "이름=" + name + "나이" + age + "세";
+		return "이름=" + name + ", 나이=" + age + "세";
 	}
-
-
-
+	
+	
+	
 
 }
+
+
+

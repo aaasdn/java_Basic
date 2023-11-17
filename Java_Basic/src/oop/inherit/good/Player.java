@@ -8,13 +8,14 @@ package oop.inherit.good;
 	 멤버변수(필드)와 메서드가 상속됩니다. 단, 생성자는 상속되지 않습니다.
 */
 
+
 public class Player {
 	
 	String name;
 	int level;
 	int atk;
 	int hp;
-	
+		
 	void characterInfo() {
 		System.out.println("*** 캐릭터의 정보 ***");
 		System.out.println("# 아이디: " + name);
@@ -24,3 +25,17 @@ public class Player {
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -6,19 +6,19 @@ public class StrTest {
 
 		long start = System.currentTimeMillis();
 
+		/*
+		//String test
+		String str = "a";
+		for(int i=1; i<=500000; i++) {
+			str += "a";
+		}
+		*/
 		
-        //String test
-//        String str = "a";
-//        for(int i=1; i<=500000; i++) {
-//            str += "a";
-//        }
-		
-
 		StringBuilder sb = new StringBuilder("a");
-		for(int i=1; i<=500000000; i++) {
+		for(int i=1; i<=500000; i++) {
 			sb.append("a");
 		}
-
+		
 
 		long end = System.currentTimeMillis();
 

@@ -13,11 +13,7 @@ public class MappingApple {
             colorList.add(color); // 색상리스트에 담기
         }
         return colorList;
-
     }
-
-
-
 
     public static <X, Y> List<Y> map(List<X> apples, GenericFunction<X, Y> mapper) {
         List<Y> mappedList = new ArrayList<>();
@@ -29,3 +25,13 @@ public class MappingApple {
     }
 
 }
+
+
+
+
+
+
+
+
+
+

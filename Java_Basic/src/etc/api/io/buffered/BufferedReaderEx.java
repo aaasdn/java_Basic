@@ -17,11 +17,11 @@ public class BufferedReaderEx {
 			br = new BufferedReader(fr);
 			
 			//BufferedReader에는 readLine() 메서드가 있고
-            //한 줄을 통째로 읽어서 String으로 리턴합니다.
-            //더 이상 읽어들일 데이터가 없다면 null을 리턴.
+			//한 줄을 통째로 읽어서 String으로 리턴합니다.
+			//더 이상 읽어들일 데이터가 없다면 null을 리턴.
 			
 			String str;
-			while((str = br.readLine()) != null){
+			while((str = br.readLine()) != null) {
 				System.out.println(str);
 			}
 			
@@ -35,8 +35,23 @@ public class BufferedReaderEx {
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
+			
 		}
-		
+
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

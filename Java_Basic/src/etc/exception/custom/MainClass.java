@@ -3,7 +3,7 @@ package etc.exception.custom;
 public class MainClass {
 
 	public static void main(String[] args) {
-
+		
 		LoginUser user = new LoginUser("abc1234", "aaa1111!");
 		
 		String result;
@@ -13,7 +13,6 @@ public class MainClass {
 		} catch (LoginValidateException e) {
 			e.printStackTrace();
 		}
-		
 	}
 
 }

@@ -1,7 +1,7 @@
 package oop.inherit.bad;
 
-public class warrior {
-
+public class Warrior {
+	
 	String name;
 	int level;
 	int atk;
@@ -15,6 +15,6 @@ public class warrior {
 		System.out.println("# 공격력: " + atk);
 		System.out.println("# 체력: " + hp);
 		System.out.println("# 분노: " + rage);
-		
 	}
+
 }

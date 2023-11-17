@@ -1,26 +1,26 @@
 package etc.api.lang.wrapper;
 
-import java.lang.invoke.VarHandle.AccessMode;
 import java.util.Scanner;
 
-public class ParseQuiz{
+public class ParseQuiz {
 
 	public static void main(String[] args) {
 
 		/*
-		주민등록번호를 입력받아서 다음과 같은 정보를 추출하여 출력합니다.
-		
-		ex) 입력값: 921013-1234567
+		 주민등록번호를 입력받아서 다음과 같은 정보를 추출하여 출력합니다.
+
+		ex) 입력값: 9201013-1234567
 		출력값: 1992년 10월 13일 31세 남자 
 		
 		입력값: 040906-4123456
 		출력값: 2004년 9월 6일 19세 여자 
 		
 		입력값은 하이픈이 포함된 문자열이어야 합니다. 
-		하이픈이 포함되어 있지 않거나, 주민등록번호 뒷자리 첫번째 숫자가 1,2,3,4가 아닐 시에는 다시 입력받아야 합니다.
+		하이픈이 포함되어 있지 않거나, 주민등록번호 뒷자리 첫번째 숫자가 
+		1,2,3,4가 아닐 시에는 다시 입력받아야 합니다.
 		또한 하이픈을 제외한 값이 숫자가 아닐 시에도 다시 입력받아 주시면 됩니다.
-		 */
-
+		*/
+		
 		Scanner sc = new Scanner(System.in);
 		
 		String ssn;
@@ -32,16 +32,16 @@ public class ParseQuiz{
 			ssn = sc.next();
 			
 			if(ssn.indexOf("-") == -1) {
-				System.out.println("주민등록번호는 하이픈을 포함시켜주세요.");
+				System.out.println("주민등록번호는 하이픈을 포함시켜 주세요.");
 				continue;
 			}
 			
 			if(ssn.length() != 14) {
-				System.out.println("주민등록번호 13자리를 입력해주세요.");
+				System.out.println("올바른 주민등록번호 형태가 아닙니다.");
 				continue;
 			}
 			
-			c =ssn.charAt(7);
+			c = ssn.charAt(7);
 			if(!(c == '1' || c == '2' || c == '3' || c == '4')) {
 				System.out.println("뒷자리 첫번째 숫자는 1, 2, 3, 4 중 하나여야 합니다.");
 				continue;
@@ -53,10 +53,9 @@ public class ParseQuiz{
 				Integer.parseInt(test);
 				Integer.parseInt(test2);
 				break;
-			} catch (Exception e) {
+			} catch (NumberFormatException e) {
 				System.out.println("숫자로 정확하게 입력하셔야 합니다.");
-			}
-			
+			}	
 		}
 		
 		//921013-1234567
@@ -76,7 +75,7 @@ public class ParseQuiz{
 			birthYear = 1900 + year;
 		} else {
 			birthYear = 2000 + year;
-		} 
+		}
 		
 		int age = 2023 - birthYear;
 		
@@ -85,21 +84,10 @@ public class ParseQuiz{
 		
 		sc.close();
 		
-		
+
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -1,7 +1,7 @@
 package oop.abs.quiz;
 
 public class Circle extends Shape {
-
+	
 	private int radius;
 	
 	public Circle(String name, int radius) {
@@ -11,9 +11,9 @@ public class Circle extends Shape {
 
 	@Override
 	public double getArea() {
-		return radius * radius * Math.PI; // 원 넓이 공식
+		return radius * radius * Math.PI;
 	}
-
+	
 	public int getRadius() {
 		return radius;
 	}
@@ -21,6 +21,5 @@ public class Circle extends Shape {
 	public void setRadius(int radius) {
 		this.radius = radius;
 	}
-	
-	
+
 }

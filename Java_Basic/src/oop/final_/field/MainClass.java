@@ -10,8 +10,9 @@ public class MainClass {
 		kim.age = 30;
 		
 		Person park = new Person("박영희");
-//		park.nation = "영국";(x)
+//		park.nation = "영국"; (x)
 //		park.name = "박영국"; (x)
-		
+
 	}
+
 }
